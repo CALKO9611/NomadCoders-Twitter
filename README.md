@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# 노마드 코더 (ReactJS로 영황 웹 서비스 만들기)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[강의 링크](https://nomadcoders.co/nwitter)
 
-Currently, two official plugins are available:
+- 동영상 : 36개
+- 강의 분량 : 4.2 시간
+- 레벨 : 중급
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+**배우는이론**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Firebase
+2. Cloud Firestore
+3. NoSQL Realtime, Query, Filter
+4. Firebase Authentication
+5. Google Cloud Storage
 
-- Configure the top-level `parserOptions` property like this:
+**구현하는 기능**
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Email, Google, Github, Social Authentication
+2. Tweet CRUD
+3. Protected Pages
+4. Profile Page
+5. File Upload
+6. Deploy
+7. API Key Security
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+
+**노션 정리**
+[노션 링크](https://www.notion.so/57f57c99d12a415c974d89111a35c06b)
