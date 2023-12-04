@@ -22,8 +22,8 @@ export default function Timeline() {
       collection(db, "tweets"),
       orderBy("createdAt", "desc")
     );
-    const spanshot = await getDocs(tweetsQuery);
-    const tweets = spanshot.docs.map((doc) => {
+    const snapshot = await getDocs(tweetsQuery);
+    const tweets = snapshot.docs.map((doc) => {
       const { tweet, createdAt, userId, username, photo } = doc.data();
       return {
         tweet,
